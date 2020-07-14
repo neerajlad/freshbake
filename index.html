@@ -35,11 +35,16 @@
     body {
       text-align: center;
     }
-
+    .header{
+      position: sticky;
+      top: 0;
+      z-index: 9999;
+    }
+    html{scroll-behavior: smooth;}
     img {
       max-width: 100%;
     }
-
+   
     .whatsapp {
       margin: 30px auto;
     }
@@ -92,6 +97,9 @@
       user-select: none;
       text-align: inherit;
 
+    }
+    .prev{
+      left: 0px !important;
     }
 
     /* Position the "next button" to the right */
@@ -201,7 +209,7 @@
       </a>
     </div>
 
-    <div class="w3-bar w3-light-grey center">
+    <div class="w3-bar w3-light-grey center header">
       <a href="#home" class="w3-bar-item w3-button">Home</a>
       <a href="#menu" class="w3-bar-item w3-button">Menu</a>
       <a href="#testimony" class="w3-bar-item w3-button">Testimony</a>
