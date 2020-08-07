@@ -5,9 +5,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <meta name="keywords" content="Online Cake Delivery in, cakes, best cakes in , online cakes, designer cakes , chocolate cakes , all cakes, cupcakes, wheat bread, sandwich bread, donuts, homemade items, bakery near me, Cakes Near me cakes shop near me, Oat meal
   Homemade cookies and cakes,No preservatives, Coffee Walnut cookies, Coffee Chocolate cookies, Melting Moments cookies, Coconut Macaroon, Jeera cookies">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDeivU57j-macv2fXXgbhKGM6cqMLmnAFI&signed_in=true&libraries=places"></script>
+    
 <body>
   <title>FreshBake: Homemade Bakery Item</title>
 
@@ -255,12 +260,32 @@
       <h1>Cake Menu</h1>
       <img src="images/menu2.jpeg" />
     </div>
+    <div id="menu">
+      <h1>CupCake Menu</h1>
+      <img src="images/Cupcakes.jpeg" />
+    </div>
     <div>
       <h1>Breads & Tea Cake Menu</h1>
       <img src="images/menu3.jpeg" />
     </div>
+    <div id="google-reviews"></div>
+
+    
+    <script>
+    jQuery(document).ready(function( $ ) {
+       $("#google-reviews").googlePlaces({
+            placeId: 'ChIJLRNceZJtrjsROZ58DLc9-wI' //Find placeID @: https://developers.google.com/places/place-id
+          , render: ['reviews']
+          , min_rating: 4
+          , max_rows:4
+       });
+    });
+    </script>
+
     <div id="testimony">
       <h1>Testimony</h1>
+
+     
 
       <!-- Slideshow container -->
       <div class="slideshow-container">
