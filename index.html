@@ -1,80 +1,1412 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FreshBake: Homemade Bakery Item</title>
 
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="FreshBake: Homemade Bakery Item" />
-    <meta
-      itemprop="description"
-      content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore."
-    />
-    <meta itemprop="image" content="http://freshbake.co/images/poster.jpeg" />
+<head>
 
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="http://freshbake.co" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="FreshBake: Homemade Bakery Item" />
-    <meta
-      property="og:description"
-      content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore."
-    />
-    <meta
-      property="og:image"
-      content="http://freshbake.co/images/poster.jpeg"
-    />
+<!-- tab icon  -->
+<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- tab end here -->
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FreshBake: Homemade Bakery Item" />
-    <meta
-      name="twitter:description"
-      content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore."
-    />
-    <meta
-      name="twitter:image"
-      content="http://freshbake.co/images/poster.jpeg"
-    />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
-    <style>
-      body {
-        text-align: center;
-      }
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 
-      img {
-        max-width: 100%;
-      }
 
-      .whatsapp {
-        margin: 30px auto;
-      }
+  <link rel="stylesheet" href="css/freshbake.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <meta name="keywords"
+    content="Online Cake Delivery in, cakes, best cakes in , online cakes, designer cakes , chocolate cakes , all cakes, cupcakes, wheat bread, sandwich bread, donuts, homemade items, bakery near me, Cakes Near me cakes shop near me, Oat meal
+  Homemade cookies and cakes,No preservatives, Coffee Walnut cookies, Coffee Chocolate cookies, Melting Moments cookies, Coconut Macaroon, Jeera cookies">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDeivU57j-macv2fXXgbhKGM6cqMLmnAFI&signed_in=true&libraries=places"></script>
 
-      .whatsapp img {
-        border-radius: 8px;
-        height: 80px;
-      }
+<body>
+  <title>FreshBake: Homemade Bakery Item</title>
 
-      .whatsapp img:hover {
-        opacity: 0.9;
-      }
-    </style>
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="FreshBake: Homemade Bakery Item" />
+  <meta itemprop="description"
+    content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore. Online Cake Delivery in, cakes, best cakes in , online cakes, designer cakes , chocolate cakes , all cakes, cupcakes, wheat bread, sandwich bread, donuts, homemade items, bakery near me, Cakes Near me cakes shop near me, Oat meal
+    Homemade cookies and cakes,No preservatives, Coffee Walnut cookies, Coffee Chocolate cookies, Melting Moments cookies, Coconut Macaroon, Jeera cookies" />
+  <meta itemprop="image" content="http://freshbake.co/images/poster.jpeg" />
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="http://freshbake.co" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="FreshBake: Homemade Bakery Item" />
+  <meta property="og:description"
+    content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore. Online Cake Delivery in, cakes, best cakes in , online cakes, designer cakes , chocolate cakes , all cakes, cupcakes, wheat bread, sandwich bread, donuts, homemade items, bakery near me, Cakes Near me cakes shop near me, Oat meal
+    Homemade cookies and cakes,No preservatives, Coffee Walnut cookies, Coffee Chocolate cookies, Melting Moments cookies, Coconut Macaroon, Jeera cookies" />
+  <meta property="og:image" content="http://freshbake.co/images/poster.jpeg" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FreshBake: Homemade Bakery Item" />
+  <meta name="twitter:description"
+    content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore. Online Cake Delivery in, cakes, best cakes in , online cakes, designer cakes , chocolate cakes , all cakes, cupcakes, wheat bread, sandwich bread, donuts, homemade items, bakery near me, Cakes Near me cakes shop near me, Oat meal
+    Homemade cookies and cakes,No preservatives, Coffee Walnut cookies, Coffee Chocolate cookies, Melting Moments cookies, Coconut Macaroon, Jeera cookies" />
+  <meta name="twitter:image" content="http://freshbake.co/images/poster.jpeg" />
+
   </head>
 
   <body>
-    <div class="whatsapp">
-      <a
-        href="https://wa.me/919538268171?text=I'm%20interested%20in%20your%20bakery%20products"
-        target="_blank"
-      >
-        <img src="icons/whatsapp.png" />
-      </a>
+
+
+    <div class="header">
+      <a href="#home"> <img src="images/fbLogo.png" alt="freshbakeLogo" class="logo"></a>
+      <div class="header-right">
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimony">Testimony</a>
+        <a href="#contactUs">Contact Us</a>
+      </div>
+    </div>
+    <div id="banner">
+      <img src="images/hello-i-m-nik-fUP76lM4FPc-unsplash.jpg" alt="banner" class="responsive">
+    </div>
+    <!-- cake, Tea cake, brownie , cc, cookies,  granula bar, bread,  -->
+    <div class="BodyContainer">
+      <section id="aboutus" class="aboutusSection">
+        <h2 style="text-align: center; color:white; font-family: 'Comic Sans MS', cursive, sans-serif ">About FreshBake
+        </h2>
+        <p>
+          We as FreshBake is homebaker, we provide homemade bakery item, made from our home oven.
+          We do not add any preservatives to our baking items. We prepare different types of bakery products like Wheat
+          bread, Sandwich bread, Pav, Pizza base, different types of birthday cake, anniversary cakes, customer cakes,
+          theme cakes.
+          Additionally, we also bake tea time cakes and cookies. Our homemade products are tasty, good quality and we
+          make sure that we maintain a hygienic environment when we bake our bakery products.
+        </p>
+
+        <h2 style="text-align: center; color:white; font-family: 'Comic Sans MS', cursive, sans-serif " ">About Prexa Lad</h2>
+        <p>        
+          FreshBake was founded in the apartment by Prexa Lad. She is
+          passionate about homemade baking products. So, she decided to leave
+          her 9 to 5 daily job and completed professional baking classes from
+          Whitecaps international school of pastry, Bangalore in 2019-2020.
+          She decided to start homemade baking items from the apartment and
+          slowly she started selling Cakes, Bread, donuts, Cupcakes, and tea
+          cake within the apartment.
+
+          She Wanted to serve healthy and homemade food to the people and her
+          decided to bake FRESH and no use of preservative and food chemical
+          in her baking food with the highest level of hygiene and great
+          quality with taste. With this decision, her product got the attention
+          from a nearby apartment.
+
+          In addition to her bakery interest, She has completed Master in
+          Computer science from the Oxford college of science, Bangalore
+        </p>
+
+      </section>
+
+      <section id="menu" class="menubg">
+          <section class="menu_list mt-60 mb-60">
+            <div class="container">
+
+              <div class="row">
+                <div class="col-xl-12">
+                  <div class="section-title text-center mb-60">
+                    <h4>our menu</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <ul class="nav nav-tabs menu_tab" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active show" id="cakemenu-tab" data-toggle="tab" href="#cakemenu" role="tab"
+                      aria-selected="true">Cake</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="teacakemenu-tab" data-toggle="tab" href="#teacakemenu" role="tab"
+                      aria-selected="false">Tea Cake</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="browniemenu-tab" data-toggle="tab" href="#browniemenu" role="tab"
+                      aria-selected="false">Brownie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="cupcakemenu-tab" data-toggle="tab" href="#cupcakemenu" role="tab"
+                      aria-selected="false">Cupcake</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="cookiemenu-tab" data-toggle="tab" href="#cookiemenu" role="tab"
+                      aria-selected="false">Cookies</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" id="granolamenu-tab" data-toggle="tab" href="#granolamenu" role="tab"
+                      aria-selected="false">Granola Bars</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" id="breadmenu-tab" data-toggle="tab" href="#breadmenu" role="tab"
+                      aria-selected="false">Breads</a>
+                  </li>
+                </ul>
+              </div>
+              <br>
+              <!-- cake, Tea cake, brownie , cc, cookies,  granula bar, bread,  -->
+              <div class="row">
+                <div class="tab-content col-xl-12" id="myTabContent">
+                  <div class="tab-pane fade active show" id="cakemenu" role="tabpanel" aria-labelledby="cakemenu-tab">
+                    <div class="row">
+                      <div class="table-responsive">
+                        <table class="table table-sm table-borderless text-center"
+                          style="width: 800px; margin: 0 auto;">
+                          <thead>
+                            <tr>
+                              <th scope="col" width="60%" style="text-align: left;">Product</th>
+                              <th scope="col" width="10%">500g</th>
+                              <th scope="col" width="10%">1KG</th>
+                              <th scope="col" width="10%">1.5KG</th>
+                              <th scope="col" width="10%">2KG</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align:left;">PINEAPPLE CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">STRAWBERRY CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">BLUEBERRY CAKE</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1050</td>
+                              <td>&#8377;1550</td>
+                              <td>&#8377;2000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">BUTTERSCOTCH CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">WHITE FOREST CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">PAAN CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">KIWI CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">BLACK FOREST CAKE</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">IRISH COFFEE </td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                              <td>&#8377;1400</td>
+                              <td>&#8377;1800</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">CHOCOLATE CAKE</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1050</td>
+                              <td>&#8377;1550</td>
+                              <td>&#8377;2000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">DELGONA COFFEE CAKE</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1050</td>
+                              <td>&#8377;1550</td>
+                              <td>&#8377;2000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">DUTCH CHOCOLATE CAKE</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1050</td>
+                              <td>&#8377;1550</td>
+                              <td>&#8377;2000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">TRUFFLE CAKE CAKE</td>
+                              <td>&#8377;650</td>
+                              <td>&#8377;1250</td>
+                              <td>&#8377;1850</td>
+                              <td>&#8377;2400</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">RICH CHOCOLATE CAKE</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1050</td>
+                              <td>&#8377;1550</td>
+                              <td>&#8377;2000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">DUTCH ALMOND CHOCOLATE CAKE</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1150</td>
+                              <td>&#8377;1700</td>
+                              <td>&#8377;2200</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">DEATH BY CHOCOLATE CAKE</td>
+                              <td>&#8377;650</td>
+                              <td>&#8377;1250</td>
+                              <td>&#8377;1850</td>
+                              <td>&#8377;2400</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">CHOCOLATE CHIPS CAKE</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1050</td>
+                              <td>&#8377;1550</td>
+                              <td>&#8377;2000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">BARBIE DOLL CAKE</td>
+                              <td>-</td>
+                              <td>&#8377;1100</td>
+                              <td>&#8377;1600</td>
+                              <td>&#8377;2200</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">THEME CAKE </td>
+                              <td>-</td>
+                              <td>&#8377;1200</td>
+                              <td>&#8377;1700</td>
+                              <td>&#8377;2400</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:left;">PHOTO PRINT CAKE </td>
+                              <td colspan="4">&#8377;Above Price + 300 Extra</td>
+                            </tr>
+
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="teacakemenu" role="tabpanel" aria-labelledby="teacakemenu-tab">
+                    <div class="row">
+                      <div class="table-responsive">
+                        <table class="table table-sm table-borderless text-center"
+                          style="width: 800px; margin: 0 auto;">
+                          <thead>
+                            <tr>
+                              <th scope="col" width="60%" style="text-align: left;">Product</th>
+                              <th scope="col" width="10%">250g</th>
+                              <th scope="col" width="10%">500g</th>
+                              <th scope="col" width="10%">1KG</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align: left;">Plain Vanila Cake</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;900</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Banana cake</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;900</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Banana Walnut </td>
+                              <td>&#8377;275</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Tutti-Fruite Tea cake</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;900</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Marble Cake (egg/eggless)</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;900</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Chocolate Chips</td>
+                              <td>&#8377;275</td>
+                              <td>&#8377;550</td>
+                              <td>&#8377;1000</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Ragi Honey Chocolate Cake</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1100</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Whole wheat Jaggary Date Cake</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1100</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Lime & Lemon Cake</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1100</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="browniemenu" role="tabpanel" aria-labelledby="browniemenu-tab">
+                    <div class="row">
+                      <div class="table-responsive">
+                        <table class="table table-sm table-borderless text-center"
+                          style="width: 800px; margin: 0 auto;">
+                          <thead>
+                            <tr>
+                              <th scope="col" width="60%" style="text-align: left;">Product</th>
+                              <th scope="col" width="10%">Pack of 2pcs</th>
+                              <th scope="col" width="10%">Pack of 4pcs</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align: left;">Peanut Brownie</td>
+                              <td>&#8377;150</td>
+                              <td>&#8377;300</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Orange Brownie</td>
+                              <td>&#8377;150</td>
+                              <td>&#8377;300</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Mississippi Mudpie</td>
+                              <td>&#8377;150</td>
+                              <td>&#8377;300</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Whole Wheat Brownie</td>
+                              <td>&#8377;150</td>
+                              <td>&#8377;300</td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="cupcakemenu" role="tabpanel" aria-labelledby="cupcakemenu-tab">
+                    <div class="row">
+                      <div class="table-responsive">
+                        <table class="table table-sm table-borderless text-center"
+                          style="width: 800px; margin: 0 auto;">
+                          <thead>
+                            <tr>
+                              <th scope="col" width="60%" style="text-align: left;">Product</th>
+                              <th scope="col" width="10%">Pack of 4</th>
+                              <th scope="col" width="10%">Pack of 6</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+
+                            <tr>
+                              <td style="text-align: left;">Vanilla Cupcakes</td>
+                              <td>&#8377;240</td>
+                              <td>&#8377;360</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Pinnapple Cupcakes</td>
+                              <td>&#8377;240</td>
+                              <td>&#8377;360</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Strawberry Cupcakes</td>
+                              <td>&#8377;240</td>
+                              <td>&#8377;360</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">ButterScotch Cupcakes</td>
+                              <td>&#8377;240</td>
+                              <td>&#8377;360</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Blueberry Cupcakes</td>
+                              <td>&#8377;245</td>
+                              <td>&#8377;370</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Chocolate Chip Cupcakes</td>
+                              <td>&#8377;245</td>
+                              <td>&#8377;370</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Red Velvet Cheese cupcakes</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;450</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Red Velvet without Cream</td>
+                              <td>&#8377;240</td>
+                              <td>&#8377;360</td>
+                            </tr>
+                            <tr>
+                              <td colspan="3">
+                                <h2>Muffins</h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Cranberry Muffin</td>
+                              <td>&#8377;280</td>
+                              <td>&#8377;420</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Chocolate Chip Muffin</td>
+                              <td>&#8377;280</td>
+                              <td>&#8377;420</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Banana Muffin</td>
+                              <td>&#8377;280</td>
+                              <td>&#8377;420</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Banana Walnut Muffin</td>
+                              <td>&#8377;280</td>
+                              <td>&#8377;420</td>
+                            </tr>
+                            <tr>
+                              <td colspan="3">
+                                <h2>Customized Cupcakes</h2>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Theme Cupcakes</td>
+                              <td colspan="2">&#8377;Price on Request</td>
+                            </tr>
+
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="cookiemenu" role="tabpanel" aria-labelledby="cookiemenu-tab">
+                    <div class="row">
+                      <div class="table-responsive">
+                        <table class="table table-sm table-borderless text-center"
+                          style="width: 800px; margin: 0 auto;">
+                          <thead>
+                            <tr>
+                              <th scope="col" width="60%" style="text-align: left;">Product</th>
+                              <th scope="col" width="10%">250g</th>
+                              <th scope="col" width="10%">500g</th>
+                              <th scope="col" width="10%">1KG</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align: left;">Ragi Honny Cookies</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1150</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Oat meal / Oat meal Honey</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1150</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Coffee Walnut</td>
+                              <td>&#8377;300</td>
+                              <td>&#8377;600</td>
+                              <td>&#8377;1150</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Coffee Chocolate</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Melting Moments</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Coconut Macaroon - <i class='fas fa-egg'
+                                  style='font-size:14px; color: brown;'></i></td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Jeera ( Salty)</td>
+                              <td>&#8377;250</td>
+                              <td>&#8377;500</td>
+                              <td>&#8377;950</td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="tab-pane fade" id="granolamenu" role="tabpanel" aria-labelledby="granolamenu-tab">
+                  <div class="row">
+                    <div class="table-responsive">
+                      <table class="table table-sm table-borderless text-center" style="width: 800px; margin: 0 auto;">
+                        <thead>
+                          <tr>
+                            <th scope="col" width="60%" style="text-align: center;">Product</th>
+                            <th scope="col" width="10%">500g</th>
+                            <th scope="col" width="10%">1KG</th>
+                            <th scope="col" width="10%">1.5KG</th>
+                            <th scope="col" width="10%">2KG</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <h4>Cranberry bar</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h4>Black Forest</h4>
+                            </td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                            <td><span>400</span></td>
+                          </tr>
+      
+      
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div> -->
+
+                  <div class="tab-pane fade" id="breadmenu" role="tabpanel" aria-labelledby="breadmenu-tab">
+                    <div class="row">
+                      <div class="table-responsive">
+                        <table class="table table-sm table-borderless text-center"
+                          style="width: 800px; margin: 0 auto;">
+                          <thead>
+                            <tr>
+                              <th scope="col" width="60%" style="text-align: left;">Product</th>
+                              <th scope="col" width="10%">Price</th>
+
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="text-align: left;">Whole Wheat Bread / Brown Bread (~400g)</td>
+                              <td>&#8377;50</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Sandwich Bread (~400g)</td>
+                              <td>&#8377;50</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Multigrain bread (~400g)</td>
+                              <td>&#8377;60</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Pav - Pack of 6pcs</td>
+                              <td>&#8377;40</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Pizza base - Pack of 3pcs</td>
+                              <td>&#8377;40</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Wheat Pizza base - Pack of 3pcs</td>
+                              <td>&#8377;50</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Grissini (Soup Stick) - 150g</td>
+                              <td>&#8377;150</td>
+                            </tr>
+                            <tr>
+                              <td style="text-align: left;">Burger Bun - Pack of 5pcs</td>
+                              <td>&#8377;40</td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </section>
+
+      <section id="gallery">
+        <div class="section-title text-center mb-60">
+          <h4>Gallery</h4>
+        </div>
+        <div class="row">
+          <ul class="nav nav-tabs menu_tab" id="myTab1" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active show" id="cakegallery-tab" data-toggle="tab" href="#cakegallery" role="tab"
+                aria-selected="true">Cake</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="teacakegallery-tab" data-toggle="tab" href="#teacakegallery" role="tab"
+                aria-selected="false">Tea Cake</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="browniegallery-tab" data-toggle="tab" href="#browniegallery" role="tab"
+                aria-selected="false">Brownie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="cupcakegallery-tab" data-toggle="tab" href="#cupcakegallery" role="tab"
+                aria-selected="false">Cupcake</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="cookiegallery-tab" data-toggle="tab" href="#cookiegallery" role="tab"
+                aria-selected="false">Cookies</a>
+            </li>
+            <!-- <li class="nav-item">
+            <a class="nav-link" id="granolagallery-tab" data-toggle="tab" href="#granolagallery" role="tab"
+              aria-selected="false">Granola Bars</a>
+          </li> -->
+            <li class="nav-item">
+              <a class="nav-link" id="breadgallery-tab" data-toggle="tab" href="#breadgallery" role="tab"
+                aria-selected="false">Breads</a>
+            </li>
+          </ul>
+        </div>
+        <br>
+        <!-- cake, Tea cake, brownie , cc, cookies,  granula bar, bread,  -->
+        <div class="row">
+          <div class="tab-content col-xl-12" id="myTabGallery">
+            <div class="tab-pane fade active show" id="cakegallery" role="tabpanel" aria-labelledby="cakegallery-tab">
+              <div class="row">
+                <div class="table-responsive">
+                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
+                    data-link="https://photos.app.goo.gl/x6Pp5ZvEX19oK7rD8">
+                    <object
+                      data="https://lh3.googleusercontent.com/aH4kErodUh8Bd3CNlPsm4vuoQi52DUwi7mI65a79j-lmpsqgijL1rb_Gl2wUtxXc9MYxS0xFrSNsyaN_kg151rzKVCQ68b5n65vGXKmdls-NGqEdeYae4X-Gr1BDD8D1ZLCJ4dvH8w=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/Txkl_a1EGYI0WdRoGBS1NntVfurLGuOt4GqoAGMsvXgUilzNephmqO6GF7guFzIG66XbSTXIEtU6zrov2bqTb3E221UhTvVCrACHzNinCn7vAzy_v2huTq8DIIoeLQNg9aKVfwYKWw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/ah7CPwLSlhyYqNcl5ge_DKAPsknY9EZloDofzet0C4zrMIkprq8RhxQQxD5xOJKCxtscu2HwjBWZs3X97gYjWNYqtuOFfUUc1V4l2GMaf0dMwhVVbRqvC7gMZqhy7kMmxzAoLHX1dw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/soAzInNlSZv5WZ8kNxVXNnRuwFFI5SFxSopCSzDOJkscESD1jVev8IgX8sumoiZDn4agrml9agwrEMcGRi61nc3AvML1r0rZjX6ST7scPO-XruSDGMHsU_MG2q_wz06HyHiiCgoBQg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/wpyQ0iLJC30ocR32kJM1WxjuhWLbI3lK0OXN9psjJ0T5MaaLS__BbMdYFacinhJ1osGSmk2V0Ph2M2sIbXZERU1JELU3dw0e0L3XvgLHX8ZcpWQKJ78mtKty7dOg7clpGJhkUIkySw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/3UtBkZ1J19Kh8HrwdNRQisNYxRL47nB_IXYvAX6L8rPio06ZP5Z5IoF2_ClmgvY3dfYzm0y0IkDgdJM9jBLXwcRxcPRYTUfuYv3DeNluNplaI7dszR31OJxRqiJxzQWrUlS8OTzFNw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/pfbYxxoBUA3xKx4b2bKGCYNLcT-Ewdagc2IQGmw2Tfk_fDaDzFLC3lKuwrB5pB-PLrdPYAHNYQC4uT77Mz1kHKRQ9Kbjgx3Xl-LHiWTmoiraVVX1BUgGo-GDTInGn55VQQ7aENyYYg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/BbWl7HcmjPQZuf7uKmhNcqKfeq77fwIeI_HXwm8M0GtiGKx18SCuiEbPBAfIombkibD7jHT-NWUJgQdRvJ6yagMgo-YsgLKb9Ak1oEMN9YIUhToRNuqVdSub1kbkH-qEn9Ah9XLE_g=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/Fj03uI5_qiiJw9XAlc67MPTpnNPgk7ntStq661-oH1gvNPnTHzT7eJ5rR1c35waYnp48isKB99T2QWgDfjBwnO3qlgYwALxNmE81oOlwZtAU50yhkgn5Ch2J4JIBL5_5D7Zk7CCVQA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/-zTKKoMWqpUVI0irv-ILvDD0hh3w_FUzD6Ln9vGvcUTZVm2FnTYkolIxKg1QtPPjLYO6uFtiT63m2AFJq2t6EkSl1NoBCTECDsER52tfbIo3b7qfdZG4SGa7U6O-zQErfjgvbPnBdg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/I0JiTQt45a_7VooDUvvFetNfQ59Yr3xnHP1S8lFzdkY_Z6BG7XURDr5zn6t9nwrNcJyZ0zArHKrotTDl2QoLBZzefg5A5CjlmXf-w1rglnQ5r9ByHlwoc9VFPBScfQdF421oCX1ABw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/b_P9qwyqZ63XWdT6GcXdwLwIAzF_g_kLqlrVATdvP_SgN9QNuF71RM18WenhON-kbXajX3eHJdfmQ3AxQwROZUH6zPBcsyKyiVnLIXaHBdT8hZg226udRlBkMBE5cOUigM8EiMdhiQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/KyuVEWVrNAy4L63jGdfnLd_r-i7XCudLv_NIWkVnYzrolx8kWt-354RPVV9imH3-p4ZZ4xk8_zAb-BUw5z0GQS0MbWfieAEgC6FGO9KS2y52-i_l_iRBlI-40375kB2KcShe-1Za1A=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/PlUfeI9n1TjRQgmkbt6XfU7mjCAXmxKu8ub79Wt7GjTUo72MaWW7HWrB6qQeKwj5OvR-eVT0pqiS-Rc3f5atsnSoUIQpgXMrQ1XgxjFx3dz-4EA-mOEMzn0Qwf9WEv32WHGAL61k8A=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/5KX3rTPh9RAOjw7I5xu_RSq_8HElwyjRLPsHgCxdtKYbrZUcjffHI7PMLfc0gslho24H3hopnlb-IsdHGUjnJ9GBFegRTx4y0YHXsC76kTQBpzegdmdJY3FLgfj2Lu9INjyagZoWuw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/We7pApKy9exS0pSYBkeXiZJXdGQqCXqT4dCuuN7s0zwfmRDMAzCvK1gAJ6cpryuUpFtmfkLc1fWpvSXVXtTsujP09r_x9zp6GwzJBAt23kCeIa8ySxuNspRrY40HeLKLPfxcR0yr8g=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/uT-stTAoCZGHYgHkoZHq6v8m12vEhomrxOh0c8PWdXHpdZ76NnCrH3KTL2_75ERTFH4_jv2y3Lkww21OEkn5DT5-v5qVH3_H9t3mzs2MmpGTm6_3-wI2S587025e4s0B9Q_pNAKlhQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/9nvjAM-jNgNgVjWIUaGQkmOfGdYHprAw42y3Nf8QcI3uMH_ILM7fwuz8Z9wSY3VqSTMqoq8mI5s6xvnas-Emx1NFCh1UHfKJQfOz3BrIRKXz8rC2Rj0ViZRdP0SqNp_9QHfwXr8_Lg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/2JPe92jQCDWv_D9_GVGuecDpkYBH8wQrOm-JjmHUiRuHRNRFxia-IMzf6PJ49b_2OyBVq3hWMGl7cI7yWbHVKrnAWmBU1DK2yQc0Qri3SB6dTOtXjeBBV2KQVymPqPnRLOhEWnOFuQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/341My4rhK7b_xFSzw0QizlrLqtEyCeTubjqcb0Eqx7r11qpiFmfoipZofHfAu0r_3dmtWBs-zieyDohKCNJNlJeWrs0seA4N1VwbIZO85NnWydPVdVG6Q4vIMF5cZuRwa5yoIi2YKA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/3xiwpmhRmsTMjF9ZpaoV2Z1HrPMXcyYO1aRu7fLkA6x720sCm6XlAUbrsKo85ozroX14DCpHo3LZyjqNpPUNhAe7S9-ho-zJh6y3oNuB2dL-N2KWHSZYl2I5BaNfKTeOSOLUUrecRg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/SadShDOAyAPTHE-8vf2rjDxUlznsLFAtp3g4mQjOn_N3piTSo9p2Tt_tmoZOrkEE6qCAX_4gihpC5Rf2kKGsARQZ82nRFXlzW2WaADcKqRNy2l9EnDWJnBRD71H3JQ_ar2xdY2BFnA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/8RTDTPMQwFq4urjxMLctGsdxntoaAZRrdRHFOBGCGKftaDunzsIau0pe-kA6QC7YEplOkWDpn9lqopb93zrm6hUY7ZFk3gGc5jEFOxk7Rpobfu5qHmljjbNHZzlvpNNiny6A8RMgsg=w1920-h1080"></object>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="teacakegallery" role="tabpanel" aria-labelledby="teacakegallery-tab">
+              <div class="row">
+                <div class="table-responsive">
+                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
+                    data-link="https://photos.app.goo.gl/R2mNic1zVTC4qa8z7">
+                    <object
+                      data="https://lh3.googleusercontent.com/0hJ_d96BfjE8plYhjDOQSn3ODo7pY8P7KoJAmj0MN5WRizhbvOXzwfjuyJPTNk0Xbk5OcxnF5LwqPlBLzkP78r5LZDmxVnU1ermVl-SkDi_aFJaPyx8uWWA0EW98d6Wf-v639W5zjQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/iOrerHn8ezJqp81M86jFHyck9QKPZ-3sDCbb3c_NQFsqS31RnuEu5Nx0b_r7ymQSms91ChTyZgojbO944w3KzOZavAR7JwpyZqdVfGPvoQePDDSfzc6hQfaydcl9nFIdoHGYkBigMQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/i7RQg3aj1C3nOMUi1LELfpoySoJtwwR3UULg2uvSI2A_6OWaYMWwn4K5yatzat2745zoq5Fjpj2ojeo_pyrvDiuCg5IO12AScAlr9HknSAL45xpodRTXBl_cCarSFxOuu9g4Nq1oYQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/Pc_zZ8VgKzOUrS3f1q1hbaBVDHRRqDgE0zvccoLtUjdN2iYgqz-Pa_1ceIydHUT-AwfusnySpqFSIqnxwuPB2K7Pl6sU4Yhsh480wm3opUgEx79a3K1jFftXMtn43RGQ3-GPxx5CYQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/Ljw84qqGZ1BfkynwzkMYCO7bOrtYUHzbEm4_QfH6hECTdxCL68NhKNIvtNPn4PyJNv2BYGdYKPM6Gg9uxSWpKy5FhjXW6uAMfOEfjuy7jtXU8cfWmI3NqnVlTlfseDRWPQEm6CxKgQ=w1920-h1080"></object>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="browniegallery" role="tabpanel" aria-labelledby="browniegallery-tab">
+              <div class="row">
+                <div class="table-responsive">
+                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
+                    data-link="https://photos.app.goo.gl/AEjzD5kMz7rxt7My8">
+                    <object
+                      data="https://lh3.googleusercontent.com/Xh2idrCX5LaxXVf6dHalXME2dK1DQlyIFd140Q5oW4m6lNFfWYBkzg80sTaVmqk490KdLmTgVydfq_RLbdJHLwOXHiuzQQvV9Cu4wmyRPT1ykHeSYHFD4hsfHALbo3JPAr10DDI57w=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/TUT_5Trux5AdutaWVuPfwvisOohlfwmcLguePWRkgAsI2D4bxafpBUq3wqLdecGi6zLBwxaoYNdxzu8NzXt3KE4HSdxUkRPyLzjziVzPO_MzsvMHcvlcs-la7s8Vdme1Emt5a9Qq3A=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/-7EHpKNv5Ymu6qyltWHEkBPpWg_vv9kPz0PjkKk6okAnBvJAXUXbQfyRUo2rcc2T3wS3SUlSp9-LaJHNs5EqbAhNjLt101HK_20ISZCackVN8lGVHNeyxTZaEsgrLdnXO47zg6ibqQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/eUMIdtUrP1W0IHkIrvZar-DcGf1Adv1G1hiWRYBXxW4PkbWzia0aBgKSgS-cIEbBA32WyXdFyTgjKKucOIvmyACkHBmUUMhAUC073YtgXFrFFq25gSS3OSzfeUuJpouBpn7Ixc3PYg=w1920-h1080"></object>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="cupcakegallery" role="tabpanel" aria-labelledby="cupcakegallery-tab">
+              <div class="row">
+                <div class="table-responsive">
+                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
+                    data-link="https://photos.app.goo.gl/2EngWnMLuJoE8RXZ7">
+                    <object
+                      data="https://lh3.googleusercontent.com/b12_FuR4wx4Yxzen9AZOmug3kkGp7b7s59_H4hcwG36tw9OP1RSB7pw54EilSWiRzk-f4fBIoIX1xAi-Nez_ifmKYo9R_llapaEqpnxuO7GBdPIjGJ39dLw3FFFAXN8gIYcHGZNHOw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/gGhncfljEtkqK9z1Fz_gO7UErkeAcO8pEVUPZB55r9ny5u-vkm9oUEYvGp22NSoZxMKC0TMVnspEq7i1b8q3rog3KySSol5G8nkunN9Iy0uBu2GZwZXig9RidxYRXyAONtvQ5fQ47g=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/PsqXeEvfHdhnykv4k8l-H2g7hBhY5AHnZlWMObToChWSwWwFuPso9Lm_NOYbelBb-JNS0ghRwkzRsP6xw_OlOG_ixrjw8EP6Jhsu6Ebc_DFmH_66QnGZeIAp-BRAIgM1lRC6Rdlzug=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/NBpxbVxt0yHTud7vLytvL6Reb_wOke3up1dGVpB-quGZCgNt7zY12yNILIgjXQJnvcADHCI-03tjYL8wkD8nd7BtOPPOTumMy9S22XYR4xqBX7JrBHnahPW9kCX3Lzvt4EgIDMYOVg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/GguU34jQQGqz1egjLvS8QC8cNLMWiMr_E4giLFXsQe8QBh_46mwZxf9okF2lEWdCAPLSTTeWFstHWi2JHG3qwJO-5_N0ReTEJwVeTxtxGgU-sOPYjXI97wCQus8LkkWutfoUQ16mmg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/emGzD7wV2aUXJmf7RWXyqn-GOpBGh8RsgABHG8MMh4mQC1SXjthZFyfRZI1GrYnYzc_8DH3jQzyv574CjMAJOJXogGkIkoroI6nCDxJObRPUMRO4-m2KmMb68cZ-dmsdpJRYs1hOfQ=w1920-h1080"></object>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="cookiegallery" role="tabpanel" aria-labelledby="cookiegallery-tab">
+              <div class="row">
+                <div class="table-responsive">
+                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; "
+                    data-link="https://photos.app.goo.gl/S4eaeMYn7JRmYebL8" data-delay="3">
+                    <object
+                      data="https://lh3.googleusercontent.com/SECzUfnH0cZpCi5V49e_Makuwz85GTiNkN0ni3QYG54qTtCko9MtszD0dSqlTugSOnKiCqZa6jo6M9uNfV1L424hfPOP9jBzJ64TjZhR6NS4t8-3mq_lTAe6d3PEccL2WC4NaPS2Ug=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/vPErLaUUfBkE5RD2aUr0V9NlEeXeQopTmDyqsADFLA5M6fyoLqlesHkADtRk_mDo4TMne9Nf3u7C67maHXMKygSrYEhEduAQPtQ-pvzqLwUNQuOcIejAILoww5GHYp5B3EagcIiqqA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/NsIRo8D_AvpRL9OxYAdkUiBM7ntbi5MFKY2Rn0KOOg5I5-eYEM-2wxYsP1G-wOEWgo7Up3fc826qt8UPrzQ6pGiK9kqeqDT6ZNk8Dgf6QkRZ-4oz4LNHFDPjfMYiTy6cbpujAjL_5A=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/kjmv6SWpHXvpEzbvEuVgaodN5-I1SKYDmW17jpaXbzl9qs6gYiN8ove2vWJYgnodiO-Dap3uyBC5qhBm7IurRG5bifeWhZL9KJsgk5gjcckLmrY5hIqxM9FgmZyEqDgeijrQ3BowkA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/hyOC-As1ZjeOqUS_syeTeJi5iFoEPfjx-MBbpHZ5vf2Sgm0XNoIahL3CtxA1D8pliKPeLG_FBmPKbkgxU5-QXOZn2LIK0EyU3OjdI4fFA8_LnkYapTRexkPtGwwI7oN3wnV5D75qEg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/LDijoLhO37Ba7DYj6Pj0rIYrGynDsjogJSdco5Eb1lwbLonL67M9DE7-Hpyg8YyAsJpQX2Tp0GkCqIiPQZWP0C0Zkt4KFwiCluIsvGagmtAWJ3heUMoqJpnkExNpm2usYkoe9cw-9g=w1920-h1080"></object>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="tab-pane fade" id="granolagallery" role="tabpanel" aria-labelledby="granolagallery-tab">
+            <div class="row">
+              <div class="table-responsive">
+                <table class="table table-sm table-borderless text-center">
+                  <thead>
+                    <tr>
+                      <th scope="col" width="60%" style="text-align: center;">Flavour</th>
+                      <th scope="col" width="10%">500g</th>
+                      <th scope="col" width="10%">1KG</th>
+                      <th scope="col" width="10%">1.5KG</th>
+                      <th scope="col" width="10%">2KG</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <h4>Cranberry bar</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h4>Black Forest</h4>
+                      </td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                      <td><span>400</span></td>
+                    </tr>
+    
+    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div> -->
+
+            <div class="tab-pane fade" id="breadgallery" role="tabpanel" aria-labelledby="breadgallery-tab">
+              <div class="row">
+                <div class="table-responsive">
+                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; "
+                    data-link="https://photos.app.goo.gl/1ePQV4SpNGjLwgoC9" data-delay="3">
+                    <object
+                      data="https://lh3.googleusercontent.com/tPU7FbmEk8MfByrf7nRUwxgLQrtLHkCgvwC-f6Qli_PGAoUK856XcUO5mZUeab8LURXqhoBD7hr6ej-vvvkaU8Paxh4cUVCvFYQ8Zu1E_3m_zt8jTCmPjvXa9MDN0nU4dElDNlJjwQ=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/KQJiH9mfurXKD5p02e72FNd4Rg7mO1lUXTcZHEop3qEtPwMev-BDbBQgcBeFq-HJSMcgp_I8SQEqdoTIJqv0U8n1AWxZj6Jwu1wA08kpqGlE6JJL4NR-RQAxx-QpZek2Ykuoj5k0sg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/Cs2nrau07nNR5sg46PLNgvSo8mAMTg2cnMePfcWH8QrfyL7XB8LFno0PEv3LdLFEjYmiOwWoZuanIC-4I9IR0IPZDgFC_IszdiWR5xL715S6pu5c2HVywEHjJHYoNYi-1KSwoE05dw=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/URYwrCO3IBxXDbTFjbMVX30lZXR7icCC5Wsh6bwEXshfttwT9OF40QdQOi-WA33NRxhpLntw-TyOHQZyzLRPU240pCwZdPlgfs3RJFhuAh8nxi38vsC6Dn549SW9_F08yO5B3noDvg=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/8KT7B5wjvm3EsedLwNyNXL4F39oyZ9Zp92fRj3NxlLWC9dY5W6qr8Pu-nV_moEVQO4MK2Tc3Phw9gNb1IFw0eOfCWybQZqgFSoC3SijBefqORacNK-WAbnE_pSzDlbo0liOVl37C9A=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/GIobohQQoyg9Eg5vFkOQfvF26fg_WLbmawgi5vH1U0qiQ4l7zUrb9l6h0InR-0n9d17duI0r0LcnOkXL9QnNGZNLzP53lsfEDnx8LqsMWzT7ZQraDUre51W_2LjcFmHp41gmQZCIuA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/ZQRE-EHPPo0wlttYhFngDn8Oj5l-RzABzmc7HREMJxJwUp-He7x-HWaarn4XpVU6Rm-5Lccis6azfOpGhOQYTjdCahAj2gbsvESFveAMN-_YEW0xPvHL62D34HvdMN0Qb1nks61ppA=w1920-h1080"></object>
+                    <object
+                      data="https://lh3.googleusercontent.com/GXlfaJAbm4rEFIsRaVOk6NL9wnq7rY7UVjjVrwGUBJEZmH8_59KazCHimhEQfo3w9j8Pca-pJXUlYsD0pscTQFT6qI1IBF1TWmOm6v4JGgp0Zto8M4N5JcA-QE6Mm4SQ29vyPrGeLg=w1920-h1080"></object>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <div class="section-title text-center mb-60">
+        <h4>Testimony</h4>
+      </div>
+      <section id="testimony" class="aboutusSection">
+        <!-- <h2 style="text-align: center; color:white; ">Public Speak</h2> -->
+
+
+
+        <div class="col-lg-10 offset-lg-1 pt-5 pb-5 text-light">
+          <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:150px;">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active text-center p-4">
+                <blockquote class="blockquote text-center ">
+                  <p class="mb-0"><i class="fa fa-quote-left"></i> Always fresh bread and amazing cakes and all
+                    products. Awesome Taste and quality... Keep it up guys.
+                  </p>
+                  <footer class="blockquote-footer text-dark">Jaymin Pancholi<cite title="Source Title">MAHAVEER ORCHIDS
+                    </cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <div class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0"><i class="fa fa-quote-left"></i> very professional in approach, but equally friendly.
+                    quality
+                    quite at par the market, or sometimes better than popular
+                    companies. go ahead, friends.
+                  </p>
+                  <footer class="blockquote-footer text-dark">Abhishek Bhattacharya<cite title="Source Title">MAHAVEER
+                      ORCHIDS</cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <div class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                  <p class="mx-auto"><i class="fa fa-quote-left"></i>It was such a great experience with Fresh
+                    Bake(Prexa),..in this
+                    situation, we can’t go outside for cake, and baked items. but we
+                    feel we r not in lockdown, we get all the fresh items with them.
+                    I also suggested to my friends, once try u will definitely get
+                    back to her with diff order items... And price wise also really
+                    reasonably. they r also trying to bake some new items, so really
+                    await to taste .... Thanks, Fresh Bake 👍 Give 5 ⭐
+                  </p>
+                  <footer class="blockquote-footer text-dark mx-auto">parkhi kk<cite title="Source Title">MAHAVEER
+                      ORCHIDS</cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <br>
+                  <div class="client-review-stars mx-auto">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0"><i class="fa fa-quote-left"></i>Very nice and soft 🍞 , brownies also..burger bun also
+                    very
+                    soft...we enjoy ourselves while we're having anything from this
+                    bakery... Thanks a lot to Neeraj and Prexa.
+                  </p>
+                  <footer class="blockquote-footer text-dark">Madhusmita Bastia<cite title="Source Title">MAHAVEER
+                      ORCHIDS</cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <div class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0"><i class="fa fa-quote-left"></i>I just wanted to let you know how much my family
+                    enjoyed the
+                    fantastic cake you made for my husband’s birthday. It was truly
+                    delicious! Now, this has become our favorite bakery!﻿ buns and
+                    bread are very fresh and soft. It exceeded my every expectation
+                    - quality, hygiene, decoration, delivery on time, EVERYTHING!
+                  </p>
+                  <footer class="blockquote-footer text-dark">vijaya kandada<cite title="Source Title">MAHAVEER
+                      ORCHIDS</cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <div class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0"><i class="fa fa-quote-left"></i>Their baking quality is too good, every item is fresh
+                    and
+                    healthy. Cakes are also awesome. Keep up the good work.
+                  </p>
+                  <footer class="blockquote-footer text-dark">Ashish Dwivedi<cite title="Source Title">MAHAVEER
+                      ORCHIDS</cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <div class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="carousel-item text-center p-4">
+                <blockquote class="blockquote text-center">
+                  <p class="mx-auto"><i class="fa fa-quote-left"></i>Wonderful cake. Haven't had anything like this
+                    outside ever, not
+                    even from just bake. The cake was simply like made at home and
+                    served with love. So smooth and delicious.
+                  </p>
+                  <footer class="blockquote-footer text-dark">jyotisankar behera<cite title="Source Title">MAHAVEER
+                      ORCHIDS</cite></footer>
+                  <!-- Client review stars -->
+                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                  <div class="client-review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            <br>
+            <ol class="carousel-indicators mx-auto">
+              <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+              <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+              <li data-target="#client-testimonial-carousel" data-slide-to="3"></li>
+              <li data-target="#client-testimonial-carousel" data-slide-to="4"></li>
+              <li data-target="#client-testimonial-carousel" data-slide-to="5"></li>
+              <li data-target="#client-testimonial-carousel" data-slide-to="6"></li>
+            </ol>
+          </div>
+
+
+
+      </section>
+      <!-- </div> -->
+
+      <div id="contactUs">
+        <div class="section-title text-center mb-60">
+          <h4>Contact Us</h4>
+        </div>
+
+        <div class="contactuscontainer">
+          <div class="addressContainer">
+            <h2>Address:</h2>
+            A-563, Mahaveer Orchids, Aadi Pampa Road <br>
+            Choodasandra, Central Jail Road <br>
+            Opp: Notra Dame School <br>
+            Bangalore, 560099 <br>
+            Call or whatsapp : 91-9538268171<br>
+            Email: freshbake.co@gmail.com <br>
+          </div>
+          <div class="mapContainer">
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=Freshbake,%20Maveer%20orchids&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                  href="https://google-map-generator.com">google map generator</a></div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 400px;
+                  width: 500px;
+                }
+
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 400px;
+                  width: 500px;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <section id="footer" class="footerStrip">
+
+        <!-- Footer -->
+        <footer class="page-footer font-small special-color-dark pt-4">
+
+          <!-- Footer Elements -->
+
+
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/FreshBakeByPrexa" target="_blank">
+                <i class="fab fa-facebook-f"> </i>
+              </a>
+            </li>
+            <!-- <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li> -->
+            <li class="list-inline-item">
+              <a class="btn-floating btn-gplus mx-1" href="https://g.page/freshbake-bangalore?gm" target="_blank">
+                <i class="fab fa-google-plus-g"> </i>
+              </a>
+            </li>
+            <!-- <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li> -->
+          </ul>
+          <!-- Social buttons -->
+
+
+          <!-- Footer Elements -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="http://freshbake.co/"> freshbake.co</a>
+          </div>
+          <!-- Copyright -->
+          <div style="text-align:center;">
+            <script type="text/javascript" src="http://services.webestools.com/cpt_visitors/67391-2-5.js"></script>
+          </div>
+
+        </footer>
+        <!-- Footer -->
+      </section>
+
+
     </div>
 
-    <div><img src="images/menu1.jpeg" /></div>
-    <div><img src="images/menu2.jpeg" /></div>
-    <div><img src="images/menu3.jpeg" /></div>
+
+    <!-- JS Script -->
+    <!-- <script>
+      // When the user scrolls down 50px from the top of the document, resize the header's font size
+      window.onscroll = function () { scrollFunction() };
+
+
+      function scrollFunction() {
+        var mnu = document.getElementsByClassName("header");
+        var xImg = getElementsByClassName("logo");
+
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          for (var i = 0; i < mnu.length; i++) {
+            mnu[ i ].style.fontSize = "15px";
+            xImg[ i ].style.width = "15px";
+          }
+
+
+          // document.getElementsByClassName("logo").style.width = "15px";
+        } else {
+          for (var i = 0; i < mnu.length; i++) {
+            mnu[ i ].style.fontSize = "20px";
+            xImg[ i ].style.width = "20px";
+          }
+
+          // document.getElementsByClassName("logo").style.width = "20px";
+        }
+      }
+    </script> -->
+
+
   </body>
+
 </html>
