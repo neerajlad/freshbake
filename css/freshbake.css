@@ -37,7 +37,7 @@ body {
 	color: black;
 }
 
-.header a.active {
+a.active {
 	background-color: darkorange;
 	color: black;
 }
@@ -260,4 +260,77 @@ td span {
 		) 0% 0% no-repeat padding-box;
 	background: transparent linear-gradient(to right, #f5b350 0%, #b3823a 100%) 0%
 		0% no-repeat padding-box;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: orange;
+	color: black;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#myBtn:hover {
+	background-color: #555;
+}
+
+.ribbon {
+	font-size: 15px;
+	position: relative;
+	display: inline-block;
+	margin: 2em;
+	text-align: center;
+}
+.ribbonText {
+	display: inline-block;
+	padding: 0.5em 1em;
+	min-width: 20em;
+	line-height: 1.2em;
+	background: #ffd72a;
+	position: relative;
+}
+.float {
+	position: fixed;
+	height: 60px;
+	bottom: 150px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+.whatsapp {
+	margin: 30px auto;
+}
+
+.whatsapp img {
+	border-radius: 8px;
+	height: 60px;
+}
+
+.whatsapp img:hover {
+	opacity: 0.9;
+}
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+
+.carousel-indicators {
+	bottom: -80px;
+}
+
+.carousel-inner {
+	margin-bottom: 50px;
 }
