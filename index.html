@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
   <!------ Include the above in your HEAD tag ---------->
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -82,13 +83,12 @@
   <meta name="twitter:description"
     content="Homemade birthday cake, anniversary cake, tea cakes without preservatives home delivered in Bangalore." />
   <meta name="twitter:image" content="http://freshbake.co/images/poster.jpeg" />
-
-  </head>
+</head>
 
   <body>
 
 
-    <div class="header">
+    <!-- <div class="header">
       <a href="#home"> <img src="images/fbLogo.png" alt="freshbakeLogo" class="logo"></a>
       <div class="header-right">
         <a href="#home" class="active">Home</a>
@@ -98,39 +98,48 @@
         <a href="#testimony">Testimony</a>
         <a href="#contactUs">Contact Us</a>
       </div>
-    </div>
+    </div> -->
+
+    <header class="header">
+      <a href="#home"> <img src="images/fbLogo.png" alt="freshbakeLogo" class="logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimony">Testimony</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+    </header>
     <div id="banner">
       <img src="images/hello-i-m-nik-fUP76lM4FPc-unsplash.jpg" alt="banner" class="responsive">
     </div>
     <!-- cake, Tea cake, brownie , cc, cookies,  granula bar, bread,  -->
     <div class="BodyContainer">
-      <section id="aboutus" class="aboutusSection">
+      <section id="aboutus" class="aboutusSection" >
         <h2 style="text-align: center; color:white; font-family: 'Comic Sans MS', cursive, sans-serif ">About FreshBake
         </h2>
-        <p>
-          We as FreshBake is homebaker, we provide homemade bakery item, made from our home oven.
+        <p class="aboutdetails">
+          We as FreshBake is homebaker, we provide homemade bakery item, made from our home oven. <br>
           We do not add any preservatives to our baking items. We prepare different types of bakery products like Wheat
-          bread, Sandwich bread, Pav, Pizza base, different types of birthday cake, anniversary cakes, customer cakes,
-          theme cakes.
-          Additionally, we also bake tea time cakes and cookies. Our homemade products are tasty, good quality and we
-          make sure that we maintain a hygienic environment when we bake our bakery products.
+          bread,<br> Sandwich bread, Pav,  Pizza base, different types of birthday cake, anniversary cakes, customer cakes,
+          theme cakes. <br>
+          Additionally, we also bake tea time cakes and cookies. Our homemade products are tasty, <br> good quality and we
+          make sure that we maintain a hygienic environment when we bake our bakery products.<br>
         </p>
 
         <h2 style="text-align: center; color:white; font-family: 'Comic Sans MS', cursive, sans-serif " ">About Prexa Lad</h2>
-        <p>        
-          FreshBake was founded in the apartment by Prexa Lad. She is
-          passionate about homemade baking products. So, she decided to leave
-          her 9 to 5 daily job and completed professional baking classes from
-          Whitecaps international school of pastry, Bangalore in 2019-2020.
-          She decided to start homemade baking items from the apartment and
-          slowly she started selling Cakes, Bread, donuts, Cupcakes, and tea
-          cake within the apartment.
+        <p class="aboutdetails">        
+          FreshBake was founded in the apartment by Prexa Lad. She is passionate about homemade baking products. <br>
+          So, she decided to leave her 9 to 5 daily job and completed professional baking classes from Whitecaps international school of pastry, Bangalore in 2019-2020.<br>
+          She decided to start homemade baking items from the apartment and slowly she started selling Cakes, Bread, donuts, Cupcakes, and tea
+          cake within the apartment.<br>
 
-          She Wanted to serve healthy and homemade food to the people and her
-          decided to bake FRESH and no use of preservative and food chemical
-          in her baking food with the highest level of hygiene and great
-          quality with taste. With this decision, her product got the attention
-          from a nearby apartment.
+          She Wanted to serve healthy and homemade food to the people and her decided to bake FRESH and no use of preservative and food chemical <br>
+          in her baking food with the highest level of hygiene and great quality with taste. With this decision, her product got the attention
+          from a nearby apartment.<br>
 
           In addition to her bakery interest, She has completed Master in
           Computer science from the Oxford college of science, Bangalore
@@ -821,14 +830,14 @@
             </li>
           </ul>
         </div>
-        <br>
+        <br> 
         <!-- cake, Tea cake, brownie , cc, cookies,  granula bar, bread,  -->
         <div class="row">
           <div class="tab-content col-xl-12" id="myTabGallery">
             <div class="tab-pane fade active show" id="cakegallery" role="tabpanel" aria-labelledby="cakegallery-tab">
               <div class="row">
                 <div class="table-responsive">
-                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <!-- <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script> -->
                   <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
                     data-link="https://photos.app.goo.gl/x6Pp5ZvEX19oK7rD8">
                     <object
@@ -885,7 +894,7 @@
             <div class="tab-pane fade" id="teacakegallery" role="tabpanel" aria-labelledby="teacakegallery-tab">
               <div class="row">
                 <div class="table-responsive">
-                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <!-- <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script> -->
                   <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
                     data-link="https://photos.app.goo.gl/R2mNic1zVTC4qa8z7">
                     <object
@@ -906,7 +915,7 @@
             <div class="tab-pane fade" id="browniegallery" role="tabpanel" aria-labelledby="browniegallery-tab">
               <div class="row">
                 <div class="table-responsive">
-                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <!-- <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script> -->
                   <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
                     data-link="https://photos.app.goo.gl/AEjzD5kMz7rxt7My8">
                     <object
@@ -926,7 +935,7 @@
             <div class="tab-pane fade" id="cupcakegallery" role="tabpanel" aria-labelledby="cupcakegallery-tab">
               <div class="row">
                 <div class="table-responsive">
-                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <!-- <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script> -->
                   <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; " data-delay="3"
                     data-link="https://photos.app.goo.gl/2EngWnMLuJoE8RXZ7">
                     <object
@@ -950,7 +959,7 @@
             <div class="tab-pane fade" id="cookiegallery" role="tabpanel" aria-labelledby="cookiegallery-tab">
               <div class="row">
                 <div class="table-responsive">
-                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <!-- <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script> -->
                   <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; "
                     data-link="https://photos.app.goo.gl/S4eaeMYn7JRmYebL8" data-delay="3">
                     <object
@@ -1077,7 +1086,7 @@
             <div class="tab-pane fade" id="breadgallery" role="tabpanel" aria-labelledby="breadgallery-tab">
               <div class="row">
                 <div class="table-responsive">
-                  <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                  <!-- <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script> -->
                   <div class="pa-carousel-widget" style="height:480px; width:800px; margin:0 auto; "
                     data-link="https://photos.app.goo.gl/1ePQV4SpNGjLwgoC9" data-delay="3">
                     <object
@@ -1110,10 +1119,6 @@
         <h4>Testimony</h4>
       </div>
       <section id="testimony" class="aboutusSection">
-        <!-- <h2 style="text-align: center; color:white; ">Public Speak</h2> -->
-
-
-
         <div class="col-lg-10 offset-lg-1 pt-5 pb-5 text-light">
           <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:150px;">
             <div class="carousel-inner" role="listbox">
@@ -1272,9 +1277,6 @@
               <li data-target="#client-testimonial-carousel" data-slide-to="6"></li>
             </ol>
           </div>
-
-
-
       </section>
       <!-- </div> -->
 
