@@ -761,3 +761,9 @@ ul.social-network li {
 }
 
 /* end here */
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+	body {
+		overflow-x: hidden;
+	}
+}
